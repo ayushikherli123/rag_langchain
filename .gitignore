@@ -1,0 +1,32 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+*.pyo
+*.pyd
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+venv/
+env/
+
+# Secrets
+.env
+*.env
+!.env.example
+
+# Generated FAISS store
+src/faiss_store/*
+!src/faiss_store/.gitkeep
+
+# Input Documents
+src/data/*
+!src/data/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.sublime-workspace

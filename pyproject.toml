@@ -1,0 +1,34 @@
+[project]
+name = "rag-langchain"
+version = "0.1.0"
+description = "Traditional Langchain based RAG"
+readme = "README.md"
+authors = [
+    { name = "Ayushi Jain" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "arxiv>=4.1.0",
+    "chromadb>=1.5.9",
+    "docx2txt>=0.9",
+    "faiss-cpu>=1.16.0",
+    "langchain>=1.5.1",
+    "langchain-community>=0.4.2",
+    "langchain-groq>=1.2.0",
+    "langchain-openai>=1.8.1",
+    "langchain-tavily>=0.2.18",
+    "langgraph>=1.2.22",
+    "pymupdf>=2.1",
+    "pypdf>=7.1.1",
+    "python-dotenv>=1.2.4",
+    "sentence-transformers>=6.3.0",
+    "streamlit>=1.67.0",
+    "wikipedia>=1.4.0",
+]
+
+[project.scripts]
+rag-langchain = "rag_langchain:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"

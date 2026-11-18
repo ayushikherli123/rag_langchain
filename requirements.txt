@@ -1,0 +1,16 @@
+langchain
+langgraph
+python-dotenv
+langchain-groq
+langchain-openai
+streamlit
+wikipedia
+langchain-community
+langchain-tavily
+arxiv
+pypdf
+pymupdf
+sentence_transformers
+faiss-cpu
+chromadb
+docx2txt
